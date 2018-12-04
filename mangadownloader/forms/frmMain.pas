@@ -2275,7 +2275,7 @@ begin
           '',
           OptionChangeUnicodeCharacter,
           OptionChangeUnicodeCharacterStr);
-      s:=ReplaceRegExpr('\.*$', s, '', False);
+      s:=ReplaceRegExpr('\.*$', s, '');
       c:=1;
       p:=links.Count;
       r:=0;
